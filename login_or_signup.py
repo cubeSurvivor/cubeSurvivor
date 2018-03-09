@@ -1,6 +1,6 @@
 import math
 
-import tkinter
+import Tkinter
 
 import time
 
@@ -13,6 +13,8 @@ username = input('Enter your username: ')
 time.sleep(1)
 
 password = input('Enter your password: ')
+
+time.sleep(0.5)
 
 print('Logging in now...')
 
