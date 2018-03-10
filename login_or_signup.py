@@ -1,30 +1,13 @@
+
 import math
 
-import Tkinter
+import tkinter
 
 import time
 
-cube = input('Do you have a cubeSurvivor account? Yes or no: ')
-if 'Yes':
-    time.sleep(1)
-
-username = input('Enter your username: ')
-
-time.sleep(1)
-
-password = input('Enter your password: ')
-
-time.sleep(0.5)
-
-print('Logging in now...')
-
-if 'no' :
-    time.sleep(1)
-
 username = input('Enter username: ')
 
-while True:
-    (username) == 0
+if len(username) == 0:
     time.sleep(0.5)
     username = input('Username must be greater than zero characters. Please enter a different username: ')
 
@@ -49,4 +32,3 @@ email = input('Enter your email: ')
 time.sleep(0.5)
 
 print('Account will be created within 24 hours.')
-
