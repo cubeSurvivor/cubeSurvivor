@@ -1,8 +1,6 @@
 
 import math
 
-import tkinter
-
 import time
 
 username = input('Enter username: ')
