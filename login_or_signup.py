@@ -1,3 +1,4 @@
+icon.png
 
 import math
 
