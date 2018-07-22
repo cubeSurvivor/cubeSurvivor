@@ -1,7 +1,4 @@
-# cubeSurvivor: The next Minecraft
-
-  Only Better Than The Last
-
+cubeSurvivor: The next Minecraft
 
 NOTES: 
 
