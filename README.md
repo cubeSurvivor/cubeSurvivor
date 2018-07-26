@@ -1,4 +1,4 @@
-cubeSurvivor: The next Minecraft
+cubeSurvivor
 
 NOTES: 
 
