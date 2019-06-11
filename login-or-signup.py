@@ -5,23 +5,25 @@ import math
 import time
 
 question = input('Login or Signup? (Case sensitive!)')
-if question == 'Login':
+if question != str('Login'('Signup')
     time.sleep(0.5)
-    already_username = input('Enter your current username: ')           
+    print('Sorry, the system does not understand what you are doing')
+    time.sleep(0.5)
+    print('Please try again later')
+    time.sleep(0.5)
+    sys.exit()
+
+if question == str('Login'):
+    time.sleep(0.5)
+    already_username = input('Enter your current username: ')
+    time.sleep(0.5)
     already_password = input('Enter your corresponding password: ')
+    time.sleep(0.5)
     print('Logging you in now... ')
     time.sleep(0.5)
     sys.exit()
 
-if question != 'Signup' 'Login':
-    time.sleep(0.5)
-print('Sorry, system does not understand what you are entering.')
-time.sleep(0.5)
-print('Please try again later.')
-time.sleep(0.5)
-sys.exit()
-
-if question == 'Signup':
+if str(question) == 'Signup':
     time.sleep(0.5)    
 username = input('Enter Username: ')
 while len(username) == 0:
