@@ -10,13 +10,15 @@ if question == 'Login':
     already_username = input('Enter your current username: ')           
     already_password = input('Enter your corresponding password: ')
     print('Logging you in now... ')
+    time.sleep(0.5)
     sys.exit()
 
 if question != 'Signup' 'Login':
     time.sleep(0.5)
-print('Sorry does not understand what you are entering.')
+print('Sorry, system does not understand what you are entering.')
 time.sleep(0.5)
 print('Please try again later.')
+time.sleep(0.5)
 sys.exit()
 
 if question == 'Signup':
@@ -41,4 +43,5 @@ while str(password) != str(passwordc):
 email = input('Enter your email: ')
 time.sleep(0.5)
 print('Account will be created within 15 hours.')
+time.sleep(0.5)
 sys.exit()
