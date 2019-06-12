@@ -5,13 +5,6 @@ import math
 import time
 
 question = input('Login or Signup? (Case sensitive!)')
-if question != str('Login'('Signup')
-    time.sleep(0.5)
-    print('Sorry, the system does not understand what you are doing')
-    time.sleep(0.5)
-    print('Please try again later')
-    time.sleep(0.5)
-    sys.exit()
 
 if question == str('Login'):
     time.sleep(0.5)
