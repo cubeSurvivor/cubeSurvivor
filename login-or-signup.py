@@ -18,27 +18,34 @@ if question == str('Login'):
 
 if str(question) == 'Signup':
     time.sleep(0.5)    
-username = input('Enter Username: ')
-while len(username) == 0:
+    username = input('Enter Username: ')
+    while len(username) == 0:
+        time.sleep(0.5)
+        print('Username must be greater than zero characters.')
+        time.sleep(0.5)
+        username = input('Please enter a different username: ')
     time.sleep(0.5)
-    print('Username must be greater than zero characters.')
+    password = input('Enter password: ')
+    while len(password) <= 7:
+        time.sleep(0.5)
+        print('Password must be at least eight characters.')
+        time.sleep(0.5)
+        password = input('Please enter a different password: ')
     time.sleep(0.5)
-    username = input('Please enter a different username: ')
-time.sleep(0.5)
-password = input('Enter password: ')
-while len(password) <= 7:
+    passwordc = input('Confirm password: ')
+    while str(password) != str(passwordc):
+        time.sleep(0.5)
+        passwordc = input('Please reconfirm password: ')
     time.sleep(0.5)
-    print('Password must be at least eight characters.')
+    email = input('Enter your email: ')
     time.sleep(0.5)
-    password = input('Please enter a different password: ')
-time.sleep(0.5)
-passwordc = input('Confirm password: ')
-while str(password) != str(passwordc):
+    print('Account will be created within 15 hours.')
     time.sleep(0.5)
-    passwordc = input('Please reconfirm password: ')
-time.sleep(0.5)
-email = input('Enter your email: ')
-time.sleep(0.5)
-print('Account will be created within 15 hours.')
-time.sleep(0.5)
-sys.exit()
+    sys.exit()
+
+else:
+    print('Sorry, system does not understand what you are saying.')
+    time.sleep(0.5)
+    print('Please try again later.')
+    time.sleep(0.5)
+    sys.exit()
